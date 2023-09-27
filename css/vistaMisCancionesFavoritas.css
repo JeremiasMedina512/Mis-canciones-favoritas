@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cuadricula {
+  display: grid;
+  grid-template-columns: 40px 1fr 1fr 100px 40px;
+    padding: 5px;
+  background-color: rgb(79, 134, 244);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  margin: 0px 200px 0px;
+}
+
+.columna-play{
+  display: flex;
+  justify-content: center;
+}
+
+.columna-favoritos{
+  display: flex;
+  justify-content: center;
+}
+
+.cuadricula > div {
+  background-color: rgb(120, 240, 240);
+  padding: 10px;
+}
+
