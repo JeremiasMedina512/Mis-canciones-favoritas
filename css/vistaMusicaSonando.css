@@ -3,33 +3,16 @@
   box-sizing: border-box;
 }
 
-.cuadricula{
-    display: flex;
-    margin: 50px;
-    flex-direction: column;
-    background-color: black;
-    padding: 5px;
-}
-
-.cuadricula div{
-  height: 30px;
-}
-
-.linea {
+.cuadricula {
   display: grid;
-  grid-template-columns: 100px 1fr 1fr 100px 100px;
-  background-color: rgb(103, 152, 216);
-  justify-content: space-around;
-  align-items: center;
-  border: black solid 1px;
-  gap:5px;
+  grid-template-columns: 70px 1fr 1fr 100px 100px;
+  padding: 5px;
+  background-color: rgb(79, 134, 244);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
-.item1, .item2, .item3, .item4, .item5{
-  display: flex;
-  align-items: center;
+.cuadricula > div {
+  background-color: rgb(120, 240, 240);
+  padding: 10px;
 }
-
-
-
-
