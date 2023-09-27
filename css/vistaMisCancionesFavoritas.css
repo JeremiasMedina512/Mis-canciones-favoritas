@@ -6,21 +6,16 @@
 .cuadricula {
   display: grid;
   grid-template-columns: 40px 1fr 1fr 100px 40px;
-    padding: 5px;
+  padding: 5px;
   background-color: rgb(79, 134, 244);
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   margin: 0px 200px 0px;
 }
 
-.columna-play{
+.columna-play, .columna-cancion, .columna-album, .columna-duracion, .columna-favoritos{
   display: flex;
-  justify-content: center;
-}
-
-.columna-favoritos{
-  display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .cuadricula > div {
