@@ -22,6 +22,15 @@
   justify-content: space-between;
 }
 
+.columna-cancion a{
+  text-decoration: none;
+}
+
+.columna-cancion a:hover{
+  background-color:rgb(235, 225, 244);
+}
+
+
 .cuadricula > div {
   background-color: rgb(120, 240, 240);
   padding: 10px;
