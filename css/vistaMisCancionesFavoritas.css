@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.columna-album, .columna-cancion{
+  justify-content: space-between;
+}
+
 .cuadricula > div {
   background-color: rgb(120, 240, 240);
   padding: 10px;
