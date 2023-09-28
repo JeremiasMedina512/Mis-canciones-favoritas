@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+main{
+  background-color: rgb(247, 214, 116);
+}
+
+
 .cuadricula {
   display: grid;
   grid-template-columns: 40px 1fr 1fr 100px 40px;
@@ -10,7 +15,9 @@
   background-color: rgb(79, 134, 244);
   grid-column-gap: 2px;
   grid-row-gap: 2px;
-  margin: 0px 200px 0px;
+  margin: 20px 100px;
+  position: static;
+  z-index: 1;
 }
 
 .columna-play, .columna-cancion, .columna-album, .columna-duracion, .columna-favoritos{
@@ -30,9 +37,17 @@
   background-color:rgb(235, 225, 244);
 }
 
-
 .cuadricula > div {
   background-color: rgb(120, 240, 240);
   padding: 10px;
+}
+
+.reproductor{
+  display: grid;
+  background-color: rgb(247, 127, 127);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  position: fixed;
+  bottom: 0;
 }
 
